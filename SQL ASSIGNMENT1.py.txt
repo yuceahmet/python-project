@@ -1,0 +1,25 @@
+1. 	SELECT InvoiceId, CustomerId, total 
+	FROM invoices 
+	ORDER BY CustomerId ASC, total DESC;
+
+2.	SELECT InvoiceId, CustomerId, total 
+	FROM invoices 
+	ORDER BY total DESC, CustomerId ASC;
+
+3.	Number 1 query returns a result which lists 59 different CustomerId
+	in an ascending order. 
+	In this list, for each CustomerId  who has the hihgest total dolar comes first.
+
+	Number 2 query returns a result according to the total dolar beginning from the
+	highest to the lower.
+	In this list the CustomerId's are in a mixed order cooresponding to the their 	 	total dolar amounts.
+
+4.	SELECT * FROM invoices WHERE total >= 10 LIMIT 10;
+
+5.	SELECT * FROM invoices WHERE total < 10 LIMIT 5;
+
+6.	SELECT * FROM invoices
+	WHERE BillingAddress, BillingCity, BillingCountry, BillingState like "%B" AND "s%";
+
+7.	SELECT *FROM invoices
+	WHERE BillingCountry IN ("USA", "Germany", "Norway", "Canada") AND InvoiceDate like 	"%2010%";
