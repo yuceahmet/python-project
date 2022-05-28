@@ -1074,7 +1074,7 @@
     }
    ],
    "source": [
-    "{x : y for x,y in bir_dikşinıri.items()}"
+    "{x : y for x,y in bir_dikşiniri.items()}"
    ]
   },
   {
