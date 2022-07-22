@@ -864,7 +864,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "- Let's define our own Factorial Function using Recursive Method"
+    "-Let's define our own Factorial Function using Recursive Method"
    ]
   },
   {
